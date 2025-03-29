@@ -39,4 +39,5 @@ Abra o terminal ou prompt de comando e use os comandos abaixo para acessar o Cas
 `SELECT * FROM tb_usuarios;`
 
 Nota: No final do Dockerfile do cliente retire o comentario da a última linha e recrie imagem e container para deixar o processo automático.
+
 `CMD ["python", "sil_consumer_stream.py", "--mode", "append"]`
