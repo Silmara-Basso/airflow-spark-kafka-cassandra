@@ -14,7 +14,7 @@ if [ ! -f "/opt/airflow/airflow.db" ]; then
     --lastname admin \
     --role Admin \
     --email silmarabasso@yahoo.com.br \
-    --password silsec
+    --password minha_senha
 fi
 
 $(command -v airflow) db upgrade
